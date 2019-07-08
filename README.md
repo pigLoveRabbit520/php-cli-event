@@ -1,2 +1,2 @@
-# php-cli-event
-测试PHP镜像添加event扩展
+# 说明
+添加`event`扩展，PHP版本为7.1
