@@ -5,7 +5,7 @@ RUN apk --update add \
     autoconf \
     libevent-dev \
     openldap-dev \
-    imagemagick-dev \
+    imagemagick-dev && \
     docker-php-ext-install pdo_mysql opcache sockets && \
     docker-php-ext-enable sockets && \
     pecl install event-2.5.3 && \
