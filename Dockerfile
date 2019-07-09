@@ -3,6 +3,8 @@ FROM php:7.1.30-cli-alpine3.9
 # Packages
 RUN apk --update add \
     autoconf \
+    build-base \
+    linux-headers \
     libevent-dev \
     openldap-dev \
     imagemagick-dev && \
